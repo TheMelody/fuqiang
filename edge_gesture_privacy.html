@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 40px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Edge swipe gesture pro Privacy Policy</title>
+	<script>
+    ;(function(win,doc){
+      var UA = navigator.userAgent,
+        isAndroid = /android|adr/gi.test(UA),
+        isIos = /iphone|ipod|ipad/gi.test(UA) && !isAndroid;
+      var docEl = doc.documentElement;
+      var refreshRem =function (){
+        var w =docEl.getBoundingClientRect().width || 320;
+        var fs = w/320 * 20;
+        fs = fs>40 ? 40 : fs;
+        docEl.style.fontSize = fs+'px';
+      },refreshRemId;
+      win.addEventListener('resize', function() {
+        clearTimeout(refreshRemId);
+        refreshRemId = setTimeout(refreshRem, 100);
+      }, false);
+      win.addEventListener('pageshow', function(e) {
+        if (e.persisted) {
+          clearTimeout(refreshRemId);
+          refreshRemId = setTimeout(refreshRem, 100);
+        }
+      }, false);
+      refreshRem();
+    })(window,document);
+	</script>
+	<style>
+		html,body,div,img,h2,h3,p {margin: 0;padding: 0;border: 0;font-weight: normal;}
+		html,body{font-size: 20px;font:normal 20px/1.5 'helvetica neue','Hiragino Sans GB','Microsoft YaHei','SimSun',arial,sans-serif;}
+		body {background-color: #fff;padding: 0.64rem; -webkit-box-sizing:border-box; box-sizing:border-box;}
+		/* iPhone X and iOS11.1 */
+		html{
+			background-color: #fff;
+			padding-top: constant(safe-area-inset-top);
+			padding-left: constant(safe-area-inset-left);
+			padding-right: constant(safe-area-inset-right);
+			padding-bottom: constant(safe-area-inset-bottom);
+		}
+		/*p {margin-top: .5rem;font-size: .6rem; text-indent: .8rem;line-height: 1rem; color:#666;text-align: justify;}*/
+		h1 { padding: 0.5rem 0;font-size: 1.024rem;line-height: 1.8rem; color:#333;}
+		h2 {margin-bottom: 1rem;padding-top: .5rem;font-size: .8rem;line-height: 1.5rem; color:#333;}
+		ul {list-style: none;line-height: 2;padding-left:0;}
+		ul li,p { margin-bottom: .5rem;margin-top: .5rem;font-size: .6rem;text-indent: .8rem;line-height: 1rem; color:#666; }
+		em {font-style: normal;font-weight: bold;}
+		strong {font-style: normal;font-weight: bold;border-bottom: 1px solid #000;}
+		.bold {font-weight: bold;}
+		.underline {text-decoration: underline;}
+		.deliver {margin: 40px 0;}
+		.en p {text-indent: 0;}
+		@media only screen and (max-width: 360px) and (min-width: 321px){
+			html{font-size: 22.5px}
+		}
+		@media only screen and (max-width: 375px) and (min-width: 361px){
+			html{font-size: 23.4px}
+		}
+		@media only screen and (max-width: 415px) and (min-width: 391px){
+			html{font-size: 25.9px;}
+		}
+		#zh,
+		#tw,
+		#en,
+		#jp,
+		#ko,
+		#hk {
+			display: none;
+		}
+	</style>
+</head>
+<body>
+
+<div class="zh" id="zh" style="display: block;">
+	<h1 style="text-align: center">Edge swipe gesture pro Privacy Policy</h1>
+
+	<p>This privacy policy ("Policy") is intended to explain to you what you should know when using the standard app (hereinafter referred to as "product" or "service")：</p>
+
+	<p>1、How we collect and use your personal information</p>
+
+	<p>2、How do we use permissions</p>
+
+	<p>3、How to update this policy</p>
+
+	<p>4、Our contact</p>
+
+	<p>We attach great importance to the protection of your personal information. We are also committed to maintaining your trust in us. We are committed to adopting corresponding security protection measures to protect your personal information in accordance with the generally applicable security standards in the industry. But it needs to be specifically noted that this policy does not apply to products or services provided to you by other third parties. If you use a product or service provided by a third party, please pay attention to the user agreement and privacy policy of the third party product or service.</p>
+
+	<p>Before using our products and services, please read carefully and fully understand this policy. How we collect and use your personal information.</p>
+
+	<h2>1、How we collect and use your personal information</h2>
+
+	<p>（1）、We do not collect any personal information.</p>
+
+	<h2>2、How do we use permissions</h2>
+
+	<p>（1）、Permission: android.permission.SYSTEM_ALERT_WINDOW used before android 6.0, floating window permission, used for screen edge detection full screen gestures, to help users achieve edge sliding back to the upper page.</p>
+
+	<p>（2）、Permission: android.permission.SYSTEM_OVERLAY_WINDOW after android 6.0 is used, the floating window permission is used to detect the full screen gestures on the edge of the screen, and help users to realize the edge sliding back to the upper page.</p>
+
+	<p>（3）、Permission: android.permission.RECEIVE_BOOT_COMPLETED is used to monitor the system startup broadcast, and help to detect whether the gesture still exists after the boot.</p>
+
+	<p>（4）、Permission: android.permission.BIND_ACCESSIBILITY_SERVICE accessibility service, used to realize the function of sliding back on the edge of the full screen, this function will not monitor the screen content.</p>
+
+	<h2>3、How to update this policy</h2>
+
+	<p>Our privacy policy may be changed in due course according to business adjustments, changes in laws and regulations or policies. Without your explicit consent, we will not reduce your rights in accordance with this privacy policy. We will post any changes to this policy on a dedicated page. For major changes, we will prompt you through pop-ups, pushes, etc. in the product or service.</p>
+
+	<p>If you do not agree with the revised privacy policy, you have the right and should immediately stop using our products and/or services. If you continue to use our products and/or services, it is deemed that you have accepted the amendments we made to the relevant terms of this policy.</p>
+
+	<p>The major changes referred to in this policy include but are not limited to:</p>
+
+	<p>1、Changes in our purpose of processing personal information, the types of personal information processed, and the way in which personal information is used;</p>
+
+	<p>2、Your right to participate in the processing of personal information and how to exercise it changes;</p>
+
+	<p>3、When the personal information security impact assessment report shows that there is a risk.</p>
+
+	<h2>4、Our contact</h2>
+
+	<p>If you have any questions, comments, suggestions or appeals on the content of this policy, you can contact: developer.xuyun@gmail.com</p>
+</div>
+
+<script>
+  (function () {
+    function $$(selector) {
+      return document.querySelector(selector);
+    }
+    function getQuery(name) {
+      var queryReg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i'),
+        queryStr = location.search.substr(1).match(queryReg);
+      if(queryStr != null) {
+        return unescape(queryStr[2]);
+      }
+      return '';
+    }
+    var lang = getQuery('lang') || 'zh';
+    if (lang == 'tw') {
+      document.title = 'Edge swipe gesture pro Privacy Policy';
+      $$('#tw').style.display = 'block';
+    } else if(lang == 'zh') {
+      $$('#zh').style.display = 'block';
+    }  else if(lang == 'hk') {
+      $$('#hk').style.display = 'block';
+    } else {
+      // if language is unkown, use english by default.
+      document.title = 'Edge swipe gesture pro Privacy Policy';
+      $$('#en').style.display = 'block';
+    }
+  })();
+</script>
+
+
+
+</body></html>
